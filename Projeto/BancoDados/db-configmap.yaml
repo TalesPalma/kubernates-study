@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: db-config
+data:
+  MYSQL_ROOT_PASSWORD: "talespalma"
+  MYSQL_USER: "talespalma"
+  MYSQL_PASSWORD: "talespalma"
+  MYSQL_DATABASE: "noticias"

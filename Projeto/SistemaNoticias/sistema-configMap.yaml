@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: sistema-config
+data:
+  HOST_DB: svc-banco-dados:3306
+  USER_DB: "talespalma"
+  PASS_DB: "talespalma"
+  DATABASE_DB: "noticias"
+
